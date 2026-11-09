@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Bauni 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loading">
+    <h1>For You</h1>
+    <div class="bar"><div class="progress"></div></div>
+</div>
+
+<div id="hero">
+    <p class="hero-eyebrow">a little universe, made especially for you</p>
+    <h1 id="title">Happy Birthday, Bauni 💗</h1>
+    <p id="subtitle">Three little planets. Three little surprises. One birthday made just for you.</p>
+    <button id="startBtn">Open your birthday universe ✨</button>
+</div>
+
+<section id="galaxyMap">
+    <p class="birthday-eyebrow">your birthday universe</p>
+    <h1 class="galaxy-title">Three Little Worlds</h1>
+    <p class="galaxy-subtitle">tap a planet and see what's waiting for you</p>
+
+    <div class="galaxy-line birthday-line1"></div>
+    <div class="galaxy-line birthday-line2"></div>
+
+    <a class="planet birthday-planet photosPlanet" href="photos.html" aria-label="Open your photos">
+        <div class="planet-core"></div>
+        <div class="orbit-star star1"></div>
+        <div class="orbit-star star2"></div>
+        <div class="planet-label">Our Photos 📸</div>
+    </a>
+
+    <a class="planet birthday-planet cakePlanet" href="cake.html" aria-label="Open your birthday cake">
+        <div class="planet-core"></div>
+        <div class="orbit-star star2"></div>
+        <div class="planet-label">Birthday Cake 🎂</div>
+    </a>
+
+    <a class="planet birthday-planet letterPlanet" href="letter.html" aria-label="Open your birthday letter">
+        <div class="planet-core"></div>
+        <div class="orbit-star star1"></div>
+        <div class="orbit-star star3"></div>
+        <div class="planet-label">A Letter 💌</div>
+    </a>
+
+    <p class="birthday-footer">Made with a lot of thought, just for you. ❤️</p>
+</section>
+
+<canvas id="scene"></canvas>
+
+<audio id="bgMusic" loop>
+    <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
